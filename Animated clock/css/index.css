@@ -1,0 +1,54 @@
+                #clock {
+                    /* background: #575783; */
+                    margin: auto;
+                    height: 60vw;
+                    width: 60vw;
+                    position: relative;
+                    /* background-size: 100%; */
+                    background: url(/img/clock.png) no-repeat;
+                    background-size: 100%;
+                    border: 2px solid rgba(0, 119, 255, 0.308);
+                }
+                
+                #hour,
+                #minute,
+                #second {
+                    position: absolute;
+                    background: black;
+                    transform-origin: bottom;
+                    margin-bottom: -1px;
+                    /* for the top */
+                    border-bottom-left-radius: 20%;
+                    border-bottom-right-radius: 20%;
+                    /*for making the arrow shape at top */
+                    border-top-left-radius: 50%;
+                    border-top-right-radius: 50%;
+                    transform-origin: bottom;
+                }
+                
+                #hour {
+                    background: rgb(36, 35, 35);
+                    height: 22%;
+                    width: 4%;
+                    bottom: 50%;
+                    right: 48%;
+                    opacity: 0.8;
+                }
+                
+                #minute {
+                    background: rgb(31, 30, 30);
+                    height: 31%;
+                    width: 3%;
+                    bottom: 50%;
+                    right: 48.5%;
+                    opacity: 20;
+                }
+                
+                #second {
+                    background: rgb(41, 39, 41);
+                    height: 37%;
+                    width: 2%;
+                    bottom: 50%;
+                    right: 49%;
+                    opacity: 20;
+                }
